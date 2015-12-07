@@ -1,9 +1,9 @@
 /**
  * Created by dragonfire on 12/7/15.
  */
-function stackedFractionWrapper(editor)
+function StackedFractionWrapper(equation)
 {
-    this.editor = editor;
+    this.equation = equation;
 }
-stackedFractionWrapper.prototype = new Wrapper();
-stackedFractionWrapper.prototype.constructor = stackedFractionWrapper;
+StackedFractionWrapper.prototype = new Wrapper();
+StackedFractionWrapper.prototype.constructor = StackedFractionWrapper;
