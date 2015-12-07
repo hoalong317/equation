@@ -14,11 +14,7 @@ function Wrapper()
     this.padTop = 0;
     this.padBottom = 0;
 }
-(function()
+Wrapper.prototype.genDom = function()
 {
-    Wrapper.prototype.constructor = new Wrapper();
-    Wrapper.prototype.buildDom = function()
-    {
 
-    }
-})();
+}
